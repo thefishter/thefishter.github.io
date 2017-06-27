@@ -1599,7 +1599,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2579,7 +2579,7 @@
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
+			margin: 2em 0 0 0;
 			padding: 4em 0 0 0;
 		}
 
@@ -2874,7 +2874,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
+				padding: 4.5em 3em 3em 3em;
 				width: 30%;
 			}
 
@@ -2901,10 +2901,29 @@
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 4.5em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
+	}
+
+/* Icon Wrap Fix */
+	@media screen and (max-width: 1075px) {
+
+		/* List */
+
+			ul.icons li {
+				padding: 0 0.85em 0 0;
+			}
+	}
+
+	@media screen and (max-width: 1035px) {
+
+		/* List */
+
+			ul.icons li {
+				padding: 0 0.65em 0 0;
+			}
 	}
 
 /* Medium */
