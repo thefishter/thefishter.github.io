@@ -1579,7 +1579,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #a2a2a2;
 		text-decoration: none;
 	}
 
@@ -1610,7 +1610,7 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #49bf9d;
 			text-decoration: none;
 		}
 
@@ -1965,6 +1965,7 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		color: #787878;
 	}
 
 		.icon:before {
@@ -2484,7 +2485,7 @@
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: auto,								auto 120%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
