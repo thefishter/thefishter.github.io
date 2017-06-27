@@ -2521,7 +2521,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2874,16 +2874,16 @@
 		/* Header */
 
 			#header {
-				padding: 4.5em 3em 3em 3em;
+				padding: 4.5em 3em 3em 2em;
 				width: 30%;
 			}
 
 				#header h1 {
-					font-size: 1.25em;
+					font-size: 1.15em;
 				}
 
-					#header h1 br {
-						display: none;
+					#header h1 strong {
+						font-size: 1.25em;
 					}
 
 		/* Footer */
@@ -2924,6 +2924,7 @@
 			ul.icons li {
 				padding: 0 0.65em 0 0;
 			}
+
 	}
 
 /* Medium */
@@ -2960,6 +2961,10 @@
 				#header h1 {
 					font-size: 1.75em;
 				}
+
+					#header h1 strong {
+						font-size: 1.8em;
+					}
 
 					#header h1 br {
 						display: inline;
