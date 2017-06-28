@@ -2231,17 +2231,17 @@
 					margin-top: 0;
 				}
 
-				ul.labeled-icons li a {
-					color: inherit;
-				}
-
 				ul.labeled-icons li h3 {
-					color: #b2b2b2;
+					color: #49bf9d;
 					left: 0;
 					position: absolute;
 					text-align: center;
 					top: 0;
 					width: 1em;
+				}
+
+				ul.labeled-icons li a {
+					color: #49bf9d;
 				}
 
 	dl {
@@ -2539,7 +2539,7 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.7);
 		}
 
 	#footer .copyright {
