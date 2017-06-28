@@ -2837,7 +2837,7 @@
 /* Touch */
 
 	body.is-touch .image.thumb:before {
-		opacity: 0.2 !important;
+		opacity: 0.1 !important;
 	}
 
 	body.is-touch .image.thumb:after {
